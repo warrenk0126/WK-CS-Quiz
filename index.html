@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WK's JavaScript Quiz</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8"> <!-- Set the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configure the viewport for responsive design -->
+    <title>WK's JavaScript Quiz</title> <!-- Set the page title that appears in the browser tab -->
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to an external CSS stylesheet for styling -->
 </head>
 <body>
-    <div class="container">
-        <h1>WK's JavaScript Quiz</h1>
-        <button id="startButton">Start Quiz</button>
-        <div id="quiz" class="hidden">
-            <p>Time Left: <span id="timer">60</span> seconds</p>
-            <div id="question"></div>
-            <div id="choices"></div>
-            <button id="nextButton">Next</button>
+    <div class="container"> <!-- Create a container for the page content -->
+        <h1>WK's JavaScript Quiz</h1> <!-- Main heading for the quiz -->
+        <button id="startButton">Start Quiz</button> <!-- Button to start the quiz -->
+        <div id="quiz" class="hidden"> <!-- Container for quiz questions (initially hidden) -->
+            <p>Time Left: <span id="timer">60</span> seconds</p> <!-- Display the time remaining for the quiz -->
+            <div id="question"></div> <!-- Display the quiz question -->
+            <div id="choices"></div> <!-- Display the answer choices -->
+            <button id="nextButton">Next</button> <!-- Button to proceed to the next question -->
         </div>
-        <div id="result" class="hidden">
-            <p>Your score: <span id="score"></span>/20</p>
-            <input type="text" id="initials" placeholder="Enter your initials">
-            <button id="saveButton">Save Score</button>
+        <div id="result" class="hidden"> <!-- Container for displaying the quiz result (initially hidden) -->
+            <p>Your score: <span id="score"></span>/20</p> <!-- Display the user's score -->
+            <input type="text" id="initials" placeholder="Enter your initials"> <!-- Input for user initials -->
+            <button id="saveButton">Save Score</button> <!-- Button to save the user's score -->
         </div>
-        <div id="leaderboard" class="hidden">
-            <h2>Leaderboard</h2>
-            <ul id="scoreList"></ul>
+        <div id="leaderboard" class="hidden"> <!-- Container for displaying the leaderboard (initially hidden) -->
+            <h2>Leaderboard</h2> <!-- Heading for the leaderboard section -->
+            <ul id="scoreList"></ul> <!-- Display the list of high scores -->
         </div>
-        <div id="notificationContainer">
-            <p id="notification" class="notification"></p>
+        <div id="notificationContainer"> <!-- Container for notifications -->
+            <p id="notification" class="notification"></p> <!-- Display notifications to the user -->
         </div>
-        <div id="answerNotification" class="hidden">
-            <p id="answerText"></p>
+        <div id="answerNotification" class="hidden"> <!-- Container for answer-related notifications (initially hidden) -->
+            <p id="answerText"></p> <!-- Display notifications regarding user answers -->
         </div>
     </div>
-    <script src="js/script.js"></script>
+    <script src="js/script.js"></script> <!-- Link to an external JavaScript file for interactivity -->
 </body>
 </html>
