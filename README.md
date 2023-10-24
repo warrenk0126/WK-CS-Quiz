@@ -1,6 +1,6 @@
 # WK's JavaScript Quiz
 
-![JavaScript Quiz Screenshot](https://imgur.com/a/fACbLQD)
+[JavaScript Quiz Screenshot](https://imgur.com/a/fACbLQD)
 
 ## Description
 
@@ -31,7 +31,7 @@ You can access the deployed application and test your JavaScript knowledge by cl
 
 ## Screenshot
 
-![JavaScript Quiz Screenshot](https://imgur.com/a/fACbLQD)
+[JavaScript Quiz Screenshot](https://imgur.com/a/fACbLQD)
 
 ## Feedback and Contributions
 
@@ -39,7 +39,7 @@ If you have any feedback, encounter issues, or want to contribute to the project
 
 ## Author
 
-This JavaScript Quiz application was developed by [Your Name].
+This JavaScript Quiz application was developed by Warren Kim.
 
 ## License
 
